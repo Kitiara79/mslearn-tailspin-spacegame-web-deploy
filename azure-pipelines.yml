@@ -74,7 +74,7 @@ stages:
       vmImage: 'ubuntu-20.04'
     environment: dev
     variables:
-    - group: tailspin-space-game-rg
+    - group: Release
     strategy:
       runOnce:
         deploy:

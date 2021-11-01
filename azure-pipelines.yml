@@ -146,6 +146,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure app service deploy: website'
             inputs:
-              azueSubscription: 'Resource Manager - Tailspin - Space Game'
+              azureSubscription: 'Resource Manager - Tailspin - Space Game'
               appName: '$(WebAppNameStaging)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
